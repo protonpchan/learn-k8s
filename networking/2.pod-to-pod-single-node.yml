@@ -14,7 +14,7 @@ kind: Pod
 metadata:
   name: mypod2
 spec:
-  nodeName: 'k8s-worker1'
+  nodeName: 'k8s-worker-1'
   containers:
   - name: pod2
     image: xiaopeng163/net-box
